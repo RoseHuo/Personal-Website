@@ -1,0 +1,239 @@
+/* 
+	Author: QINGXI HUO;
+	Date: 2016/06/11;
+*/
+
+/*	Header	*/
+@media (min-width: 800px) {
+
+	header {
+		display: block;
+		float: left;
+		width: 320px;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: white;
+
+		background-image: url('../img/flower1.jpg');
+		background-repeat: no-repeat;
+		background-position: 25% 0%;
+		background-size: cover;
+
+		z-index: 1000 !important;
+	}
+
+	.bullet {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.logo{
+		padding-top: 60px;
+	}
+
+	#hidden-logo, #hidden-nav-menu {
+		display: none;
+	}
+
+	.logo h1 {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		font-size: 80px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		padding-bottom: 70px;
+	}
+
+	.logo h2 {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		font-size: 60px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+	}
+
+	.logo a {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		text-decoration: none;
+	}
+
+	nav {
+		margin: 0px 0px 0px 0px;
+		background: rgb(140, 140, 140);
+		background: rgba(255, 255, 255, 0.4);
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	nav a{
+		text-decoration: none;
+		color: black;
+		font-family: Arial, Helvetica, serif;
+	}
+
+	nav a:active, a:hover {
+		color: #c92031;
+	}
+
+	#main-nav-menu h3 {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		padding-bottom: 0px;
+	}
+
+	#main-nav-menu h4 {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		padding-bottom: 0px;
+	}
+
+	#main-nav-menu h5 {
+		text-align: center;
+		color: #fff;
+		font-family: Arial, Helvetica, serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		display: block;
+		margin: 0px 0px 0px 0px;
+		padding-bottom: 0px;
+	}
+
+	.social-widget{
+		padding-top: 170px;
+		font-size: 12px;
+	}
+
+	.col-sm-8 {
+		display:flex;
+		justify-content: flex-end;
+	}
+
+	.social-widget ul {
+		list-style: none;
+	}
+	
+	.social-widget li {
+		margin: 0 40px 40px 0;
+	}
+
+	.container {
+        width: 100%;
+        margin-left: 320px;
+        display: inline-block;
+        background-color: #888888;
+        margin: 0px 0px 0px 0px;
+        padding: 5px 5px 5px 5px;
+        color: #fff;
+        font-size: 15px; 
+            
+        text-decoration: none;
+        z-index: 500 !important;
+        position: fixed;
+        right: 0px;
+        text-align: right;
+        opacity: .8;
+    }
+
+    .container ul{
+    	list-style: none;
+    	overflow: hidden;
+    }
+
+    .container ul li{
+    	display: inline-block;
+    	float: right;
+
+    	letter-spacing: 1px;
+    	background-color: #888888;
+    	padding: 0px 8px 5px 8px !important;
+    }
+
+    .container ul li a {
+    	color: #fff;
+
+    	text-decoration: none;
+    	position: relative;
+    	text-transform: uppercase;
+    }
+
+    .container ul li.title {
+    	float: left;
+    	display: block;
+    	background-color: #888888;
+    	margin-left: 330px;
+    	text-transform: uppercase;
+    }
+}
+
+
+/* Main Content */
+.main-content {
+	width: 100%;
+	padding-left: 320px;
+	height: auto;
+	box-sizing: border-box;
+
+}
+
+.main-content .main {
+	width:100%;
+	height: auto;
+	float: left;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.about {
+	padding: 80px 100px 30px 100px;
+}
+
+.about h1 {
+	text-align: center;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 30%;
+	height: 1px;
+	margin: 20px auto;
+	display: block;
+	border: 0;
+	background: #e9e9e9;
+}
+
+.about p {
+	text-align: left;
+	margin-bottom: 36px;
+	color: #676767;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+
+
+
+
+
