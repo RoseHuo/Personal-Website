@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  		<title>QINGXI HUO</title>
-  		<meta charset="utf-8">
-  		<meta name="author" content="QINGXI HUO">
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<title>QINGXI HUO</title>
+	<meta charset="utf-8">
+	<meta name="author" content="QINGXI HUO">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
-  		<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/icon.css">
 </head>
 
 
@@ -17,56 +22,49 @@
 			<h1 id="fittext5">HUO</h1></a>
 		</div>
 
-		<div class="hidden-logo" id="hidden-logo">
-			<h3 id="fit-hidden-logo">QINGXI HUO</h3>
-		</div>
-
-		<div id="menu-icon"></div>
-
-		<nav id="hidden-nav-menu">
-			<ul>
-				<li><a href="index.html">ABOUT ME</a></li>
-				<li><a href="index.html?page=Project">PROJECTS</a></li>
-				<li><a href="index.html?page=Blog">BLOG</a></li>
-				<li><a href="index.html?page=Photography">PHOTOGRAPHY></a></li>
-				<li><a href="index.html?page=Resume">RESUME</a></li>
-				<li><a href="mailto:huoqingxi@hotmail.com">CONTACT</a></li>
-			</ul>
-		</nav>
-
-		<nav id="main-nav-menu">
+		<nav class="header-menu">
 			<h4 id="fittext-nav1"><a href="index.html">ABOUT</a><span class="bullet">&bull;</span><a href=""index.html?page=Project>PROJECTS</a></h4>
 			<h3 id="fittext-nav2"><a href="index.html?page=Photography">PHOTOGRAPHY</a><span class="bullet">&bull;</span><a href="index.html?page=Blog">BLOG</a></h3>
 			<h5 id="fittext-nav3"><a href="index.html?page=Resume" target="_blank">RESUME</a> <span class="bullet">&bull;</span> <a href="mailto:huoqingxi@hotmail.com" target="_blank">CONTACT</a></h5>
 		</nav>
 
 		<div class="social-widget">
-            <div class="sm">
-            	<ul class="col-sm-8">
-            		<li class="col-sm-1"> <a href="" target="_blank"><img alt="Facebook" border="0" src="img/social-media/2.png" width="35px" height="35px"></a> </li>
-                	<li class="col-sm-1"> <a href="" target="_blank"><img alt="Linkedin" border="0" src="img/social-media/3.png" width="35px" height="35px"></a></li>
-                	<li class="col-sm-1"> <a href="mailto:huoqingxi@hotmail.com" target="_blank"><img alt="Mail" border="0" src="img/social-media/1.png" width="35px" height="35px"></a></li>
-                </ul>
-            </div>
+			<ul class="soc">
+				<li><a class="soc-linkedin" href="#"></a></li>
+				<li><a class="soc-github" href="#"></a></li>
+				<li><a class="soc-telegram" href="#"></a></li>
+				<li><a class="soc-facebook soc-icon-last" href="#"></a></li>
+			</ul>
         </div>
 	</header><!-- END HEADER -->
 
-	<div class="container">
-		<div id="container">
-		<ul>
-			<div id="welcome"><li class="title">Welcome</li></div>
-			<li><a href="index.html?page=Project">Projects</a></li>
-			<li><a href="index.html?page=Photography">Photography</a></li>
-			<li><a href="index.html?page=Blog">Blog</a></li>
-			<li><a href="index.html?page=Resume">Resume</a></li>
-		</ul>
-		</div>
-	</div> 
+	<nav>
+		<div class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<!-- better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<p class="welcome">Welcome</p>
+				</div>
 
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html?page=Project">Projects</a></li>
+						<li><a href="index.html?page=Photography">Photography</a></li>
+						<li><a href="index.html?page=Blog">Blog</a></li>
+						<li><a href="index.html?page=Resume">Resume</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
 
 	<!-- Main content -->
 	<section class="main-content">
-		
 		<!-- About -->
 		<div class="main">
 			<div class="about">
@@ -77,88 +75,42 @@
 		</div>
 
 		<!-- Item -->
-		<!--
-		<div class="item">
-			<a href="index.html?page=Project" class="project">
-				<img class="media" src="img/item/project.png"/>
-				<dev class="content">
-					<h2 class="title">Project</h2>
-				</dev>
-			</a>
-		</div>
-
-		<div class="item">
-			<a href="index.html?page=Photography" class="photography">
-				<img class="media" src="img/item/photography.png"/>
-				<dev class="content">
-					<h2 class="title">Photography</h2>
-				</dev>
-			</a>
-		</div>
-
-		<div class="item">
-			<a href="index.html?page=Blog" class="blog">
-				<img class="media" src="img/item/blog.jpg"/>
-				<dev class="content">
-					<h2 class="title">Blog</h2>
-				</dev>
-			</a>
-		</div>
-
-		<div class="item">
-			<a href="index.html?page=Resume" class="resume">
-				<img class="media" src="img/item/resume.jpg"/>
-				<dev class="content">
-					<h2 class="title">Resume</h2>
-				</dev>
-			</a>
-		</div>
-	-->
-
 		<div class="items" >
+
 			<div class="row">
-			<figure class="item">
 				<a href="index.html?page=Project" class="project">
 					<img class="media" src="img/item/project1.png"/>
-					<dev class="content">
+					<div class="content">
 						<h2 class="title">Project</h2>
-					</dev>
+					</div>
 				</a>
-				
-			</figure>
 			</div>	
 
 			<div class="row">
-			<figure class="item">
 				<a href="index.html?page=Photography" class="photography">
 					<img class="media" src="img/item/photography1.jpg"/>
-					<dev class="content">
+					<div class="content">
 						<h2 class="title">Photography</h2>
-					</dev>
+					</div>
 				</a>
-			</figure>
 			</div>
 
 			<div class="row">
-			<figure class="item">
 				<a href="index.html?page=Blog" class="blog">
 					<img class="media" src="img/item/blog1.jpg"/>
-					<dev class="content">
+					<div class="content">
 						<h2 class="title">Blog</h2>
-					</dev>
+					</div>
 				</a>
-			</figure>
 			</div>
 
 			<div class="row">
-			<figure class="item">
 				<a href="index.html?page=Resume" class="resume">
-					<img class="media" src="img/item/resume1.jpg"/>
-					<dev class="content">
+					<img class="media" src="img/item/resume.jpg"/>
+					<div class="content">
 						<h2 class="title">Resume</h2>
-					</dev>
+					</div>
 				</a>
-			</figure>
 			</div>
 		</div>
 	</section>
